@@ -1,5 +1,7 @@
 ##Use Case 1
-Title: 
+Title: Determine License and Vulnerability Information
+
+Primary Actor: Manager
 
 Goal in Context: 
 
@@ -21,6 +23,8 @@ Trigger:
 ##Use Case 2
 Title: 
 
+Primary Actor: 
+
 Goal in Context: 
 
 Stakeholders: 
@@ -40,6 +44,8 @@ Trigger:
 
 ##Use Case 3
 Title: 
+
+Primary Actor: 
 
 Goal in Context: 
 
