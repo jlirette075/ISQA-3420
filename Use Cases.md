@@ -4,9 +4,9 @@ Title:
 Goal in Context: 
 
 Stakeholders: 
-*
-*
-*
+*f
+*f
+*f
 
 Preconditions: 
 *
