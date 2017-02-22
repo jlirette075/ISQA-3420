@@ -21,45 +21,44 @@ Failed End Conditions: The manager receives the incorrect license and vulnerabil
 Trigger: Manager identifies project information to which license and vulnerability information can is provided. 
 
 ##Use Case 2
-Title: 
+Title: Developer Upload
 
-Primary Actor: 
+Primary Actor: Developer
 
-Goal in Context: 
+Goal in Context: The developer is able to upload a software package to the License Scanner and have correct information sent back. 
 
 Stakeholders: 
-* 
-* 
-* 
+* Developer: To provide the software package to be uploaded to the License Scanner.
+* Manager: To Receive correct information from the software package sent to the License Scanner. 
+* Project owner: To clearly be able to understand the manager decisions to make a decision on whether to continue the proeject or to stop it. 
 
 Preconditions: 
-* 
-* 
+* The software package is correctly uploaded to the orchestrator. 
+* The orchestrator correctly sends the software package to the License Scanner.
 
-Main Success Scenario:
+Main Success Scenario: The Developer successfully sends the softwae package to the License Scanner and the license results sent back are accurate. 
 
-Failed End Conditions: 
+Failed End Conditions: The Developer unsuccessfully sends the softwae package to the License Scanner or the license results sent back are inaccurate. 
 
-Trigger: 
+Trigger: The developer uploads the information to the orchestrator. 
 
 ##Use Case 3
-Title: 
+Title: Retrieve Policy
 
-Primary Actor: 
+Primary Actor: Manager
 
-Goal in Context: 
+Goal in Context: The manager is able to retrive the policy from the Policy DB. 
 
 Stakeholders: 
-* 
-* 
-* 
+* Manager: To receieve accurate policy information from the database. 
+* Project Owner: To clearly understand the manager's decisions to change specific policies in the company. 
 
 Preconditions: 
-* 
-* 
+* The policy name that is being sent is acutally in the database.
+* The correct policy name has been provided. 
 
-Main Success Scenario:
+Main Success Scenario: The manager correcly receives the policy that they were intending to retreieve from the database. 
 
-Failed End Conditions: 
+Failed End Conditions: The manager incorrecly receives the policy that they were intending to retreieve from the database. 
 
-Trigger: 
+Trigger: Manager sends a request to the Retrieve policy info process and the policy information is sent back. 
