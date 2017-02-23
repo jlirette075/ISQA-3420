@@ -1,5 +1,5 @@
 ##Entities
-**Developer**: Has the ability to submit a softare package and receive license and vulnerability information from that software package or other software packages in the License and Vulnerability DB. 
+**Developer**: Has the ability to submit a software package and receive license and vulnerability information from that software package or other software packages in the License and Vulnerability DB. 
 
 **Manager**: Has the ability to create and update policies from the policy DB as well as retrieve a policy from the DB by giving the policy name. 
 
@@ -25,13 +25,13 @@
 
 **Software Name**: Contains the software name from either the developer or manager and gets sent to License and vulnerability DB. 
 
-**L / V Results**: Containst the license and vulnerability results obtained from the License and Vulnerability DB and are sent back to the manager and/or the developer. 
+**L / V Results**: Contains the license and vulnerability results obtained from the License and Vulnerability DB and are sent back to the manager and/or the developer. 
 
 **New Policy**: Contains the new policy that is being sent to the Policy DB. 
 
 **Policy Name**: Contains the name of a policy to be sent to the retrieve policy info process and then to the Policy DB. 
 
-**Policy Info**: Contains the information about the policy that was either requested or recently updated and is ulitmately sent back to the manager. 
+**Policy Info**: Contains the information about the policy that was either requested or recently updated and is ultimately sent back to the manager. 
 
 **Policy Updates**: Contains the updated policy from the manager that goes to the Edit Policy process and then sent to the Policy DB. 
 
