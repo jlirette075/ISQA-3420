@@ -11,14 +11,14 @@ Stakeholders:
 * Project Owner: To clearly understand the manager decisions in order to make accurate decisions on whehter or not to stop or continue the project. 
 
 Preconditions: 
-* Relevant file/package infomration is in the databases used. 
+* Relevant file/package information is in the proper database.
 * The proper project information has been provided. 
 
 Main Success Scenario: The manager receives the correct license and vulnerability information for the requested software packages. 
 
 Failed End Conditions: The manager receives the incorrect license and vulnerability information for the requested software packages. 
 
-Trigger: Manager identifies project information to which license and vulnerability information can is provided. 
+Trigger: Manager identifies or uploads project information to which license and vulnerability information can be provided. 
 
 ##Use Case 2
 Title: Developer Upload
@@ -36,9 +36,9 @@ Preconditions:
 * The software package is correctly uploaded to the orchestrator. 
 * The orchestrator correctly sends the software package to the License Scanner.
 
-Main Success Scenario: The Developer successfully sends the softwae package to the License Scanner and the license results sent back are accurate. 
+Main Success Scenario: The Developer successfully uploads the software package to the License Scanner and the license results sent back are accurate. 
 
-Failed End Conditions: The Developer unsuccessfully sends the softwae package to the License Scanner or the license results sent back are inaccurate. 
+Failed End Conditions: The Developer unsuccessfully uploads the software package to the License Scanner or the license results sent back are inaccurate. 
 
 Trigger: The developer uploads the information to the orchestrator. 
 
@@ -47,18 +47,18 @@ Title: Retrieve Policy
 
 Primary Actor: Manager
 
-Goal in Context: The manager is able to retrive the policy from the Policy DB. 
+Goal in Context: The manager is able to retrieve the policy from the Policy DB. 
 
 Stakeholders: 
-* Manager: To receieve accurate policy information from the database. 
+* Manager: To receive accurate policy information from the database. 
 * Project Owner: To clearly understand the manager's decisions to change specific policies in the company. 
 
 Preconditions: 
 * The policy name that is being sent is acutally in the database.
 * The correct policy name has been provided. 
 
-Main Success Scenario: The manager correcly receives the policy that they were intending to retreieve from the database. 
+Main Success Scenario: The manager correctly receives the policy that they were intending to retrieve from the database. 
 
-Failed End Conditions: The manager incorrecly receives the policy that they were intending to retreieve from the database. 
+Failed End Conditions: The manager incorrectly receives the policy that they were intending to retrieve from the database. 
 
 Trigger: Manager sends a request to the Retrieve policy info process and the policy information is sent back. 
