@@ -1,16 +1,16 @@
-##Green Licenses
+Green Licenses
 
 	MIT
 	
 	BSD
 
-## Yellow Licenses
+Yellow Licenses
 
 	LGPL
 	
 	Apache 2.0
 	
-##Red Licenses
+Red Licenses
 
 	GPLv3
 	
